@@ -15,7 +15,7 @@ function App() {
   const [search, setSearch] = useState("");
   const [images, setImages] = useState(null);
   const [error, setError] = useState(null);
-  const [loader, setLoader] = useState(true);
+  const [loader, setLoader] = useState(false);
   const [page, setPage] = useState(1);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
