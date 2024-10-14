@@ -1,0 +1,22 @@
+.galleryWrap {
+  margin: 80px auto 0 auto;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px 10px;
+  padding: 0;
+}
+
+.imageCard {
+  width: 400px;
+  height: 260px;
+  box-sizing: border-box;
+  transition: transform 250ms;
+}
+
+.imageCard:hover {
+  cursor: zoom-in;
+  transform: scale(1.03);
+}

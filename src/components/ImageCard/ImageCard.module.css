@@ -1,0 +1,7 @@
+.image {
+  width: 400px;
+  height: 260px;
+  border: 1px solid #808080;
+  object-fit: cover;
+  box-sizing: border-box;
+}

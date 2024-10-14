@@ -1,0 +1,13 @@
+.buttonWrapper {
+  margin: 0 auto;
+}
+
+.button {
+  background-color: #4d4de0;
+  border: none;
+  transition: background-color 250ms;
+}
+
+.button:hover {
+  background-color: #35359c;
+}
