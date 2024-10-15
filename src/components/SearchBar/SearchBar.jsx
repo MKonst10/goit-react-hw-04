@@ -7,7 +7,7 @@ const SearchBar = ({ onSubmit }) => {
     evt.preventDefault();
     const form = evt.target;
     const value = form.elements.text.value.trim();
-    if (value === " ") {
+    if (value === "") {
       toast.error("This is an invalid request. Try again!");
       return;
     } else {
