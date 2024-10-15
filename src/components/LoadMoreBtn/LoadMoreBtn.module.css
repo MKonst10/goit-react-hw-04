@@ -4,8 +4,10 @@
 
 .button {
   background-color: #4d4de0;
+  color: white;
   border: none;
   transition: background-color 250ms;
+  margin-bottom: 10px;
 }
 
 .button:hover {
